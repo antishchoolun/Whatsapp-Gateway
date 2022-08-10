@@ -18,7 +18,7 @@
   "author": "M Pedia <ilmasunannudin2@gmail.comn>",
   "license": "MIT",
   "scripts": {
-    "postinstall": "node server.js",
+    "postinstall": "npm run start",
     "win-dev": "set NODE_ENV=development&&nodemon src/index",
     "dev": "NODE_ENV=development node src/index",
     "start": "node server.js"
