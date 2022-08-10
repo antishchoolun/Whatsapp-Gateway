@@ -20,7 +20,7 @@
   "scripts": {
     "win-dev": "set NODE_ENV=development&&nodemon src/index",
     "dev": "NODE_ENV=development node src/index",
-    "start": "node server.js"
+    "start": "NODE_ENV=production node src/index"
   },
   "nodemonConfig": {
     "ignore": [
