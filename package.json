@@ -15,16 +15,19 @@
   "version": "4.0.1",
   "description": "Whatsapp remote API multi device, multi instance. Based on baileys. Wanna more support contact me https://m-pedia.co.id ||  https://wa.me/6282298859671",
   "main": "server.js",
-  "author": "M Pedia <ilmansunannudin2@gmail.com>",
+  "author": "M Pedia <ilmasunannudin2@gmail.comn>",
   "license": "MIT",
   "scripts": {
     "win-dev": "set NODE_ENV=development&&nodemon src/index",
     "dev": "NODE_ENV=development node src/index",
-    "start": "NODE_ENV=production node src/index"
+    "start": "node server.js"
   },
   "nodemonConfig": {
     "ignore": [
       "credentials/*"
     ]
+  },
+  "engines": {
+    "node": "14.x"
   }
 }
